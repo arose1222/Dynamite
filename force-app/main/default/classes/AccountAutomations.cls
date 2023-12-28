@@ -17,11 +17,12 @@ public class AccountAutomations {
         return a;
     }
     public static Account setDefaultPhone(Account a) {
-        a.Phone='688456789';
+        a.Phone='9999999';
         return a;
     }
     public static Account setDefaultURL(Account a) {
         a.website = 'www.copado.com'; 
         return a;
+        //Dependencies Example
     }
 }
