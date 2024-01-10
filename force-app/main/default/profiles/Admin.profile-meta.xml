@@ -22,10 +22,10 @@
         <readable>true</readable>
     </fieldPermissions>
     <layoutAssignments>
-        <layout>Account-Formato de cuentas</layout>
+        <layout>Bicycle__c-Bicycle Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
-        <layout>Bicycle__c-Bicycle Layout</layout>
+        <layout>Account-Formato de cuentas</layout>
     </layoutAssignments>
     <loginHours n1:nil="true" />
     <loginIpRanges>
