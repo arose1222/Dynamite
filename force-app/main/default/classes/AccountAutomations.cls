@@ -1,30 +1,36 @@
 public class AccountAutomations {
-    Public static Account setDefaultDescription(Account a){
-        If (a.Description != null) return a;
-        Else {
-            a.Description = 'Default description';
-            return a;
+
+    // Ensures that the account's description is not null by setting a default if needed
+    public static Account setDefaultDescription(Account account) {
+        if (account.Description == null) {
+            account.Description = 'Default description';
         }
+        return account;
     }
-    public static Account setDefaultSite(Account a){
-        a.Site = 'Single location'; 
-        return a;
+
+    // Sets the account's site to a default value
+    public static Account setDefaultSite(Account account) {
+        account.Site = 'Single location'; 
+        return account;
     }
-    public static Account setDefaultShippingAddress(Account a){
-        a.shippingstreet = '111 W Illinois St'; 
-        a.shippingstate = 'Chicago';
-        a.shippingpostalcode ='60654';
-        return a;
+
+    // Sets default values for the account's shipping address
+    public static Account setDefaultShippingAddress(Account account) {
+        account.ShippingStreet = '111 W Illinois St'; 
+        account.ShippingState = 'IL'; // State code for Illinois
+        account.ShippingPostalCode = '60654';
+        return account;
     }
-    public static Account setDefaultPhone(Account a) {
-        a.Phone='9999999';
-        return a;
+
+    // Sets a default phone number for the account
+    public static Account setDefaultPhone(Account account) {
+        account.Phone = '9999999';
+        return account;
     }
-    public static Account setDefaultURL(Account a) {
-        a.website = 'www.copado.com'; 
-        return a;
-        //Dependencies Example
-//Quick Update123
-//Quick Update234
+
+    // Sets a default website URL for the account
+    public static Account setDefaultURL(Account account) {
+        account.Website = 'http://www.copado.com'; 
+        return account;
     }
 }
