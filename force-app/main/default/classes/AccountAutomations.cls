@@ -27,10 +27,10 @@ public class AccountAutomations {
         account.Phone = '9999999';
         return account;
     }
-
-    // Sets a default website URL for the account
-    public static Account setDefaultURL(Account account) {
-        account.Website = 'http://www.copado.com'; 
-        return account;
+    public static Account setDefaultURL(Account a) {
+        a.website = 'www.copado.com'; 
+        return a;
+        //Dependencies Example
+//Quick Update123456
     }
 }
