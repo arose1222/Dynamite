@@ -9,7 +9,8 @@ public class AccountOperations {
         List<Account> accounts = [SELECT Id FROM Account];
     }
         
-        // Avoid DML Statements inside loops1
+        // Avoid DML Statements inside loops
+        // Avoid DML
         for (Integer i = 0; i < 1; i++) {
         update a;
     }
