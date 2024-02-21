@@ -1,36 +1,29 @@
 public class AccountAutomations {
-
-    // Ensures that the account's description is not null by setting a default if needed
-    public static Account setDefaultDescription(Account account) {
-        if (account.Description == null) {
-            account.Description = 'Default description';
+    Public static Account setDefaultDescription(Account a){
+        If (a.Description != null) return a;
+        Else {
+            a.Description = 'Default description';
+            return a;
         }
-        return account;
     }
-
-    // Sets the account's site to a default value
-    public static Account setDefaultSite(Account account) {
-        account.Site = 'Single location'; 
-        return account;
+    public static Account setDefaultBillingAddress(Account a){
+        a.billingstreet = 'Basauri, 6'; 
+        a.billingstate = 'Madrid'; 
+        a.billingpostalcode ='28023'; 
+        return a;
     }
-
-    // Sets default values for the account's shipping address
-    public static Account setDefaultShippingAddress(Account account) {
-        account.ShippingStreet = '111 W Illinois St'; 
-        account.ShippingState = 'IL'; // State code for Illinois
-        account.ShippingPostalCode = '60654';
-        return account;
+    public static Account setDefaultShippingAddress(Account a){
+        a.shippingstreet = 'Basauri, 6'; 
+        a.shippingstate = 'Madrid';
+        a.shippingpostalcode ='28023';
+        return a;
     }
-
-    // Sets a default phone number for the account
-    public static Account setDefaultPhone(Account account) {
-        account.Phone = '9999999';
-        return account;
+    public static Account setDefaultPhone(Account a) {
+        a.Phone='688456789';
+        return a;
     }
     public static Account setDefaultURL(Account a) {
-        a.website = 'www.copado.com'; 
+        a.website = 'www.copa.do'; 
         return a;
-        //Dependencies Example
-//Quick Update123456
     }
 }
