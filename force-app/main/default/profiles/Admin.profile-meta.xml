@@ -21,11 +21,6 @@
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
-        <editable>false</editable>
-        <field>Bicycle__c.Bicycle_no__c</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
         <editable>true</editable>
         <field>Account.Relationships__c</field>
         <readable>true</readable>
@@ -37,14 +32,24 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
+        <field>Account.userid__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Bicycle__c.Bicycle_no__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
         <field>Bicycle__c.Type__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <layoutAssignments>
-        <layout>Account-Formato de cuentas</layout>
+        <layout>Bicycle__c-Bicycle Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
-        <layout>Bicycle__c-Bicycle Layout</layout>
+        <layout>Account-Formato de cuentas</layout>
     </layoutAssignments>
     <loginHours n1:nil="true" />
     <loginIpRanges>
