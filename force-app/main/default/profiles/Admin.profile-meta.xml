@@ -13,6 +13,14 @@
         <apexClass>AccountManagerTest</apexClass>
         <enabled>true</enabled>
     </classAccesses>
+    <classAccesses>
+        <apexClass>ContactManager</apexClass>
+        <enabled>true</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>ContactManagerTest</apexClass>
+        <enabled>true</enabled>
+    </classAccesses>
     <custom>false</custom>
     <fieldPermissions>
         <editable>true</editable>
@@ -26,12 +34,12 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
-        <field>Bicycle__c.Type__c</field>
+        <field>Account.Rollback_2_0__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
-        <field>Account.Rollback_2_0__c</field>
+        <field>Bicycle__c.Type__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
