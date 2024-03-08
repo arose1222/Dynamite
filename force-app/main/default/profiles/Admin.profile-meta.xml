@@ -2,7 +2,7 @@
 <Profile xmlns="http://soap.sforce.com/2006/04/metadata"
       xmlns:n1="http://www.w3.org/2001/XMLSchema-instance">
     <classAccesses>
-        <apexClass>AccountAutomations</apexClass>
+        <apexClass>NumberUtilityTest</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
@@ -10,7 +10,7 @@
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>NumberUtilityTest</apexClass>
+        <apexClass>AccountAutomations</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
@@ -35,6 +35,11 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
+        <field>Account.sampledemo1__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
         <field>Account.sampledemodev2__c</field>
         <readable>true</readable>
     </fieldPermissions>
@@ -54,10 +59,10 @@
         <readable>true</readable>
     </fieldPermissions>
     <layoutAssignments>
-        <layout>Account-Formato de cuentas</layout>
+        <layout>Bicycle__c-Bicycle Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
-        <layout>Bicycle__c-Bicycle Layout</layout>
+        <layout>Account-Formato de cuentas</layout>
     </layoutAssignments>
     <loginHours n1:nil="true" />
     <loginIpRanges>
